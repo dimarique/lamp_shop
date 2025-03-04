@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    border: 1px solid black;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 316px;
+
+    
+}
+
+.lampe1{
+    height: 74px;
+    width: 74px;
+}
+
+.social{
+    display: flex;
+    width: 216px;
+    justify-content: space-between;
+    
+}
+
+.social img{
+    height: 20px;
+    
+}
+
+main{
+    background-color:#4FBFA5;
+    display: flex;
+    padding: 84px 316px;
+    
+}
+
+h2 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 72px;
+
+}
+
+.description {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+     
+}
+
+.description p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 133px;
+    line-height: 21px;
+
+}
+
+button{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21.28px;
+    letter-spacing: 5%;
+    padding: 15px 25px;
+    background: #00868A;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+ }
+
+ button:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 5px  #00868A;
+ }
+
+ .offer{
+    color:#00868A;
+    display: flex;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 72px;
+    flex-direction: column;
+    padding: 146px 316px;
+    align-items: center;
+
+ }
+
+ .card_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
